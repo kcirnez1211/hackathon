@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.header_left span{
+    padding: 10px;
+    cursor: pointer;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_middle{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex: 0.7;
+    background-color: rgb(61, 59, 59);
+}  
+.header_middle input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    font-size: medium;
+}
+
+.sidebar{
+    flex: 0.3;
+    padding-right: 20px;
+    max-width: 300px;
+    border-right: 1px solid whitesmoke;
+}
+.compose{
+    margin: 15px 0px 15px 10px;
+    text-transform: capitalize;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(177, 94, 94);
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.option{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    padding-top: 50px;
+}
+.option .material-icons{
+    padding: 5px;
+}
+
+.option:hover,
+.option:hover h3,
+.option:hover .material-icons{
+    font-weight: 800;
+    color: violet;
+}
+
+body{
+    background: url("milky.jpg");
+    background-size: cover;
+}
+.main_body{
+    display: flex;
+    height: 100vh;
+}
+.emailRow{
+    
+    align-items: center;
+    padding-top: 50px;
+    border-bottom: 1px solid whitesmoke;
+    color: yellow;
+    padding-left: 50px;
+}
+.emailRow:hover{
+    border-top: 1px solid whitesmoke;
+}
